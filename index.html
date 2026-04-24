@@ -2,14 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>پروکسی</title>
+    <title>هَدایت به پروکسی</title>
     <script>
+        // مسیر درخواست شده را می‌گیرد (مثلاً /proxy/youtube.com)
         var path = window.location.pathname;
+        // پروکسی واقعی شما روی Vercel
         var proxyUrl = 'https://my-cool-proxy1.vercel.app' + path;
+        // هدایت می‌کند
         window.location.replace(proxyUrl);
     </script>
 </head>
 <body>
-    <p>در حال هدایت...</p>
+    <p>در حال هدایت به پروکسی...</p>
 </body>
 </html>
