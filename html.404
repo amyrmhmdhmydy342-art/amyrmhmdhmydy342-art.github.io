@@ -2,14 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>پروکسی</title>
+    <title>تست</title>
     <script>
         var path = window.location.pathname;
-        var proxyUrl = 'https://my-real-proxy.vercel.app' + path;
-        window.location.replace(proxyUrl);
+        window.location.href = 'https://sublink-worker-self.vercel.app' + path;
     </script>
 </head>
 <body>
-    <p>در حال هدایت به پروکسی...</p>
+    <p>در حال تست...</p>
 </body>
 </html>
